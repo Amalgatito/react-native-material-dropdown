@@ -556,7 +556,7 @@ export default class Dropdown extends PureComponent {
     return (
       <View style={styles.accessory}>
         <View style={styles.triangleContainer}>
-          <View style={[styles.triangle, triangleStyle]} />
+        <View style={[styles.triangle, { backgroundColor: 'transparent', borderColor: triangleStyle, borderWidth: 1 }]} />
         </View>
       </View>
     );
